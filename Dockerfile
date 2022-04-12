@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY .application.jar ./
+COPY  ./target/Automated-Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 WORKDIR ./
-CMD ["java", "-jar", "application.jar", "calculator"]
+CMD ["java", "-jar", "Automated-Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar"]
